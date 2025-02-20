@@ -3,7 +3,7 @@ const CACHE_NAME = "my-cache-v1";
 // Cache the URLs you want at installation
 const urlsToCache = [
   "/nativegames.net-v1",
-  "/nativegames.net-v1.html"
+  "/nativegames.net-v1.index.html"
 ];
 
 // Cache all resources (including assets like images, CSS, JS)
