@@ -1,9 +1,9 @@
-const CACHE_NAME = 'offline-cache-v3';
+const CACHE_NAME = 'offline-cache-v4';
 
 self.addEventListener('install', (event) => {
     event.waitUntil(
         caches.open(CACHE_NAME).then((cache) => {
-            return cache.addAll(['/']); // Cache the root and automatically cache everything
+            return cache.addAll(['./']); // Cache the root and automatically cache everything
         })
     );
     self.skipWaiting();
